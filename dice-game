@@ -1,1 +1,132 @@
+import "./app.css";
+import {Image} from '@chakra-ui/image';
+import {Flex, Heading, Stack , Box ,List, ListItem} from '@chakra-ui/layout';
+import {Button} from '@chakra-ui/button';
+import {useState} from "react";
+import {Text} from '@chakra-ui/layout';
 
+const App = () => {
+
+  const [gameStarted, setGameStarted] = useState(false);
+
+  const numbers = [1, 2, 3,4,5,6];
+
+  const [selectedNumber, setSelectedNumber] = useState();
+  const [dice, setDice] = useState(1);
+  const [error, setError] = useState(null);
+  const [score, setScore] = useState(0)
+  const startGameHandler = () => { 
+    setGameStarted(true);
+  };
+
+
+  console.log(selectedNumber);
+  const onNumberClicked = (value) => {
+    setSelectedNumber(value);
+  };
+
+  const genRandomNo = () => {
+    if (selectedNumber){
+    const generatedNo = Math.ceil(Math.random() * 6);
+    setDice(generatedNo);
+
+    if (selectedNumber === generatedNo){
+      setScore((prev) => prev + generatedNo);
+    }else{
+      setScore((prev) => prev -2);
+    }
+  }
+    else{
+      setError('please enter number');
+    }
+    
+    
+  };
+
+  return (
+  <>
+    {gameStarted ? (
+      <>
+      <Stack 
+        justify="center" 
+        align="center"
+        maxW="1300px"
+        mx="auto"
+        h="100vh" >
+        <Heading as = "h1" color ={error ? "red": "green"} fontsize="6xl" mb="8">
+        {error ? error: "select number"}
+        </Heading>
+        <Flex>
+        {numbers.map((value) => (
+          <Flex
+          justify = "center"
+          align = "center"
+          h= "50px"
+          w= "50px"
+          bg= {selectedNumber === value ? "green" : "black"}
+          color = "white"
+          fontSize="2x1"
+          key="value"
+          mr = {4}
+          borderRadius="md"
+          mb="50px"
+          _hover= {{bg:"grey"}}
+          onClick={() => onNumberClicked(value)}
+        >
+        {value}
+        </Flex>
+        ))}
+       
+        </Flex>
+        <Box onClick={genRandomNo}>
+          <Image scr="logo192.png"  alt="not available" mb="50px"/>
+        </Box>
+
+        <Text as="p" fontSize="xl">Click on dice to roll</Text>
+        <Text fontSize="8xl" color={score > 0 ? "green" : "red"} fontweight="bold">{score}</Text>
+        <Text fontSize="6xl" >Total Score</Text>
+        <Button onclick={( )=> setScore(0)}>Reset Score</Button>
+
+      </Stack>
+      <Stack justify="center" align="center" >
+        <Heading as="h2">Game Rules</Heading>
+        <List>
+          <ListItem>Select any number </ListItem>
+          <ListItem>click on dice if not visible click on not available </ListItem>
+          <ListItem>if num selected is equal to dice then you will get point</ListItem>
+          <ListItem>Select number any number </ListItem>
+        </List>
+      </Stack>
+</>
+
+
+
+    ) : (
+
+      <Flex justify="center" align="center">
+    <Image  width="50%" scr= "dice/dice-${dice}.jpg" alt="image not available" />
+    <Stack>
+      <Heading fontSize="h1">
+        {" "}
+        The Dice game
+      </Heading>
+      <Button 
+      alignSelf="flex-end" 
+      bg="black" 
+      color="white" 
+      _hover={{bg: "grey"}}
+      onClick={startGameHandler}
+      
+      >
+        Start game
+      </Button>
+    </Stack>
+  </Flex>
+    )}
+    
+  </>
+
+  );
+};
+
+export default App;
