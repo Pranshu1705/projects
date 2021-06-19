@@ -1,0 +1,6 @@
+prod_name = ['X123', 'Y432' , 'Z214']
+search = input("enter product name: ")
+if search in prod_name:
+  print("product is available')
+else:
+  print("product is not available")
