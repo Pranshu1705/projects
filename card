@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="" srcset="">
+        <div class="container">
+            <h3>Pranshu jaitley</h3>
+            <h5>Ece student</h5>
+        </div>
+    </div>
+</body>
+</html>
+
+<--CSS-->
+
+body{
+    display:flex;
+    align-items: center;
+}
+
+.card{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%%;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+    
+    padding: 2px 16px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
