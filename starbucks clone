@@ -1,0 +1,591 @@
+<--Html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>impresso cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="left-nav">
+                <div class="logo">
+                    <img src="https://th.bing.com/th/id/OIP.IRO-Tiax2ckaruqxocO__QHaHa?w=180&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="logo-img">
+                
+                </div>
+                <nav>
+                    <ul>
+                        <li>Menu</li>
+                        <li>Rewards</li>
+                        <li>Gift Cards</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-nav">
+                <div class="find-store">
+                    <i class="fi-snsuxl-map-marker"></i> 
+                    <span>Find a Store</span>   
+                </div>
+                <div class="sign-in">sign in</div>
+                <div class="join-now">Join now</div>
+
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <section class="announcements">
+                <span>
+                    facial covering are now optianal for our fully vacinated customers following CDC guidance, except where local regulation require it by lae. 
+                    <a href="">Learn more</a>
+                </span>
+            </section>
+
+            <section class="rewards-left-right-section">
+                <div class="text">
+                    <h1>FREE COFFEE IS A TAP AWAY</h1>
+                    <h3>Join now to start earning rewards</h3>
+                    <div class="cta">
+                        Join now
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71056.png" alt="" srcset="" class="image-star">
+                </div>
+            </section>
+
+            <section class="chill left-rigth-section">
+                <div class="text">
+                    <h1>DELIGHTFULLY CHILL</h1>
+                    <h3>Refresh your day with the bright,<br> tropical flavors of our Star Drink and <span class="span">Kiwi Starfruit</span> Starbucks Refreshers® beverage.</h3>
+                    <div class="cta">
+                       Order iced beverage
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-72037.jpg" alt="" srcset="" class="image-star">
+                </div>
+           
+           
+            </section>
+
+            <section class="order-pickup">
+                 <div class="card">
+                        <img class="order" src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-70203.jpg" alt="" srcset="">
+                        <div class="text">
+                            <h1>Order and pick up. Easy as that.</h1>
+                            Just open the app, order your favorites, and enjoy contactless pay. From there, choose whichever pickup method is best for you.
+                            <div class="cta">
+                                See pickup options
+                            </div>
+                        </div>
+                 </div>
+
+                 <div class="card">
+                    <img class="order" src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-72045.jpg" alt="" srcset="">
+                    <div class="text">
+                        <h1>Floating into summer like…</h1>
+                        Keep the laid-back vibes going. Order Starbucks drinks on Uber Eats.**                        
+                        <div class="cta">
+                            Order now
+                        </div>
+                    </div>
+                 </div>
+
+            </section>
+
+            <section class="celebrate">
+                <div class="text">
+                    <h1>Creating positive change</h1>
+                    <p class="celeb-text">We believe coffee can help fuel connection and <br> strengthen communities. See how our partners <br> (employees) are uplifting neighborhoods everywhere..</p>
+                    <div class="cta">
+                        Learn More
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img class="celeb-img" src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71657.jpg" alt="" srcset="">
+                </div>
+            </section>
+
+            <footer>
+                <div class="para">
+                    <p>*At participating stores. Some restrictions apply. See <a class="link" href="#">starbucks.com/rewards.</a></p>
+
+                    <span>**Menu limited.  Restricted delivery area.  Available in participating locations only.  Fees subject to <br> change.  Prices for Starbucks® items purchased through Uber Eats may be higher than posted in <br> stores or as marked.  See the Uber Eats app for details.</span>
+                </div>
+            </footer>
+
+            
+
+        </div>
+    </main>
+    
+    <hr class="hr">
+
+    <footer>
+        <div class="list">
+            <ul>
+                <li><h2>About Us</h2></li>
+                <li>Our heritage</li>
+                <li>Our coffee</li>
+                <li>Stories and News</li>
+                <li> Investor Relations</li>
+                <li>Policies and Standard</li>
+                <li>Customer Services</li>
+            </ul>
+
+            <ul>
+                <li><h2>Careers</h2></li>
+                <li>Cultures and Values</li>
+                <li>Inclusion, Diversity, and <br>Equity</li>
+                <li>College Achievement Plan</li>
+                <li>U.S. Careers</li>
+                <li>International Careers</li>
+                <li></li>
+            </ul>
+
+            <ul>
+                <li><h2>Social Impact</h2></li>
+                <li>Ethical Sourcing</li>
+                <li>Leading in Sustainability</li>
+                <li>Strenthening <br>Communities</li>
+                <li>Creating opportunity</li>
+                <li>Global Social Impact <br>Report</li>
+                <li></li>
+            </ul>
+            <ul>
+                <li><h2>For Business Partners</h2></li>
+                <li>Landlord Support Center</li>
+                <li>Suppliers</li>
+                <li>Corporate Gift Card Sales</li>
+                <li>Office and Foodservice <br> Coffee</li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <ul>
+                <li><h2>Order and Pickup</h2></li>
+                <li>Order on the app</li>
+                <li>Order on the Web</li>
+                <li>Delivery</li>
+                <li>Oder and Pickup <br> Options</li>
+                <li>Explore and Find Coffee <br> for Home</li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="ending">
+            <div class="connect">
+                <i class="fi-xnsuxl-pinterest"></i>
+                <i class="fi-cnluxl-facebook-circle"></i>
+                <i class="fi-xnsuxl-instagram"></i>
+                <i class="fi-cwsuxl-youtube"></i>
+                <i class="fi-cwsuxl-twitter"></i>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li>Privacy Policy <span>|</span></li> 
+                    <li>Term of Use <span>|</span></li>    
+                    <li>CA Supply Chain Act <span>|</span></li>    
+                    <li>Submit Your Idea <span>|</span></li>   
+                    <li> Cookie Preference <span></span></li>   
+                </ul>
+            </div>
+
+            <div class="copyright">
+               <p> &copy; 2021 Starbucks Coffee Company. All rights reserved.</p>
+            </div>
+
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
+
+<--css--> style.css
+
+body{
+    margin: 0;
+    font-weight:600;
+    font-family: Helvetica;
+    color: rgba(0,0,0,.87);
+    
+}
+
+a{
+    color:black;
+}
+
+header{
+    height:101px;
+    border-bottom: 1px black;
+    background-color:whitesmoke;
+    position: relative;
+}
+.header-container{
+    max-width : 1440px;
+    margin : 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 51px;
+    width: 51px;
+}
+
+.logo-img{
+    height: 90%;
+}
+
+.left-nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;    
+}
+
+.left-nav li{
+    padding-left: 25px;
+    letter-spacing: 0.1rem;
+}
+
+.left-nav ul li:hover{
+    color: green;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.find-store{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-weight:600;
+    display: flex;
+    align-items: center;
+}
+
+.find-store i{
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.find-store, .find-store i:hover{
+    cursor: pointer;
+}
+
+.sign-in, .join-now{
+    padding: 7px 16px;
+    border:1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    transition-delay: 0.2s;
+}
+.sign-in{
+    margin-right: 16px;
+    
+}
+
+.join-now{
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover{
+    opacity: 0.7;
+}
+
+<--css--> main.css
+
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements{
+    display: flex;
+    background-color: #dbebe3;
+    justify-content:center;
+}
+
+.announcements span{
+    padding-top:3.2rem;
+    padding-bottom:3.2rem;
+    max-width: 60%;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.rewards-left-right-section , .chill{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.chill{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 32px ;
+}
+
+.text{
+    background-color: gainsboro;
+    width:50%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 48px;
+}
+.image{
+    width:50%;
+}
+
+.image-star{
+    width: 720px;
+    height: 473px;
+}
+
+.text h1, .text h3{
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text h1{
+    margin-bottom: 24px;
+}
+
+.text h3{
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.text .cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius:50px;
+    color: #1e3932;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.text .cta:hover{
+   opacity: 0.7;
+   padding: 7px 32px;
+}
+
+.chill h3{
+    text-align: center;
+}
+
+.chill h3 .span{
+    background-color: yellowgreen;
+}
+
+.order-pickup{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 16px;
+}
+
+
+
+.pickup{
+    width: 92%;
+    margin-top: 22px;
+    margin-left: 48px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.top-down-section{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card{
+    
+    background-color: gainsboro;
+    max-width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.order{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    
+}
+
+.card .text{
+    text-align: center;
+    padding: 0 160px;
+    
+}
+
+.card .text .cta{
+    margin: 24px ;
+}
+
+.celebrate{
+    padding-top: 24px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    
+}
+
+.celebrate .text{
+    
+    padding-left: 100px;
+}
+
+.celeb-img{
+    width: 98.8%;
+    padding-left: 26px;
+}
+
+.celeb-text{
+    font-size: 15px;
+}
+
+footer .para{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.link{
+    font-style: underline;
+}
+
+.link:hover{
+    font-style:unset;
+}
+
+footer .para p,span{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+footer p{
+    margin-bottom: 50px;
+}
+
+hr{
+    border: 1px;
+    box-shadow: rgba(0,0,0,0.4);
+}
+
+<--css--> footer.css
+
+footer .list{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.hr{
+    color: gray;
+    height: 1px;
+    overflow: visible;
+}
+
+.list li h2 {
+    color: black;
+}
+
+.list  li{
+    color: gray;
+    font-weight: 450;
+    list-style-type: none;
+    margin: 25px;
+}
+
+footer .connect{
+    display: flex;
+    padding-left: 40px;
+}
+
+footer .connect i{
+    font-size: 25px;
+    padding-left: 25px;
+    border-radius: 50%;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav{
+    
+    padding-top: 30px;
+}
+
+.nav ul{
+    display: flex;
+    
+}
+
+.nav ul li{
+    padding-left: 20px;
+}
+
+.nav ul li span{
+    padding-left: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: gray;
+    padding-left: 56px;
+    padding-top: 20px;
+    padding-bottom: 56px;
+
+}
+
+
+
+
