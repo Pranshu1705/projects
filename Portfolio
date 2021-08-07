@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>My Portfolio</title>
+
+<style>
+    .center-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+</style>
+
+  </head>
+  <body>
+    
+
+    <!-- header -->
+    <img style="width:100%; height:300px;" src="https://images.unsplash.com/photo-1621711641849-2d22396fd71a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&" alt="">
+    
+    <header class="container">
+        <h1 class="text-center" style="padding:20px;">My portfolio!</h1>
+
+        <hr>
+        
+        <div class="row">
+            
+            <div class="col-sm-6">    
+                <img class="center-image" src="https://images.unsplash.com/photo-1583423842205-71f895c07c14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" width=90%" alt="">
+            </div>
+            
+            <div class="col-sm-6">
+                <h3 style="margin-top: 120px;">Mountain</h3>
+                <hr>
+                <p style=" font-size: 20px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugiat enim optio animi quae, magni necessitatibus nobis modi rem molestias totam eos numquam expedita consectetur similique deserunt nihil ab? Animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dicta nostrum repellat libero accusamus eveniet possimus pariatur ad et quia. Corporis perferendis quaerat eaque quibusdam enim repellat cupiditate ullam vel.</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            
+           
+            
+            <div class="col-sm-6">
+                <h3 style="margin-top: 120px;">Mountain</h3>
+                <hr>
+                <p style=" font-size: 20px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugiat enim optio animi quae, magni necessitatibus nobis modi rem molestias totam eos numquam expedita consectetur similique deserunt nihil ab? Animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dicta nostrum repellat libero accusamus eveniet possimus pariatur ad et quia. Corporis perferendis quaerat eaque quibusdam enim repellat cupiditate ullam vel.</p>
+            </div>
+
+            <div class="col-sm-6">    
+                <img class="center-image" src="https://images.unsplash.com/photo-1583423842205-71f895c07c14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" width=90%" alt="">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            
+            <div class="col-sm-6">    
+                <img class="center-image" src="https://images.unsplash.com/photo-1583423842205-71f895c07c14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" width=90%" alt="">
+            </div>
+            
+            <div class="col-sm-6">
+                <h3 style="margin-top: 120px;">Mountain</h3>
+                <hr>
+                <p style=" font-size: 20px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugiat enim optio animi quae, magni necessitatibus nobis modi rem molestias totam eos numquam expedita consectetur similique deserunt nihil ab? Animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dicta nostrum repellat libero accusamus eveniet possimus pariatur ad et quia. Corporis perferendis quaerat eaque quibusdam enim repellat cupiditate ullam vel.</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            
+           
+            
+            <div class="col-sm-6">
+                <h3 style="margin-top: 120px;">Mountain</h3>
+                <hr>
+                <p style=" font-size: 20px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugiat enim optio animi quae, magni necessitatibus nobis modi rem molestias totam eos numquam expedita consectetur similique deserunt nihil ab? Animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dicta nostrum repellat libero accusamus eveniet possimus pariatur ad et quia. Corporis perferendis quaerat eaque quibusdam enim repellat cupiditate ullam vel.</p>
+            </div>
+
+            <div class="col-sm-6">    
+                <img class="center-image" src="https://images.unsplash.com/photo-1583423842205-71f895c07c14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" width=90%" alt="">
+            </div>
+        </div>
+
+
+    </header>
+
+        
+    <section id="aboutme" class="container">
+        <h1>About me</h1>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive img-fluid" src="https://images.unsplash.com/photo-1599461975701-b26c020fa13f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="">
+            </div>
+            <div class="col-sm-8">
+                <p style="margin-top: 25px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste esse perferendis inventore repudiandae, molestias fugit aut placeat aliquid in laboriosam similique quo dolorum ad voluptates obcaecati nesciunt odit nulla doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, saepe maxime consequatur maiores ratione consequuntur, ipsum porro nostrum necessitatibus in, animi autem odit! Exercitationem neque, ea hic quisquam eos fugiat.
+                </p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste esse perferendis inventore repudiandae, molestias fugit aut placeat aliquid in laboriosam similique quo dolorum ad voluptates obcaecati nesciunt odit nulla doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, saepe maxime consequatur maiores ratione consequuntur, ipsum porro nostrum necessitatibus in, animi autem odit! Exercitationem neque, ea hic quisquam eos fugiat.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center" style="margin-top: 20px;">
+        <p>copyright &copy; Photography 2020  <br>
+        Made with &hearts; in India</p>
+    </footer>
+    
+    
+    
+    
+  </body>
+</html>
