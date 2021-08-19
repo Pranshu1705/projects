@@ -1,0 +1,33 @@
+
+        <script>
+            function addItem(){
+                var tempItem = document.getElementById("new_list_item").value
+                listItems.push(tempItem)
+                displayList(tempItem)
+                document.getElementById("new_list_item").value = ''
+            }
+        </script>
+
+
+        <script >
+            var listItems = ['Buy Groceries' , 'Make breakfast']
+        </script>
+
+        <div id="display">
+            <h3>Your TODO : </h3>
+            <ul>
+                <script>
+                    listItems.forEach(displayList)
+
+                    function displayList(item){
+                        document.getElementById("display").innerHTML += "<li>" + item + "</li>"
+                        document.getElementById("display").style.listStyle = "Number"
+                        
+                    }
+                </script>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
